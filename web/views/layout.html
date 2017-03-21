@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/gallery.css" />
 </head>
 <body>
+
   <div class="as3mbus-container">
     <div class="as3mbus-header-container">
       <a class="as3mbus-header" href="#">
@@ -23,11 +24,12 @@
           <li class="as3mbus-nav-button">About</li>
         </ul>
     </div>
-	<script src="../scripts/gallery.js"></script>
-	{% include 'gallery.html' %}
+	
+	
     <div class="as3mbus-content-container">
+	  
 	  <div class="as3mbus-content">
-	     
+	     {% include 'gallery.html' %}
 	  </div>
       <div class="as3mbus-content">
         <h1>Test</h1>
@@ -77,7 +79,8 @@
     </table>
 	
   </div>
+  
   <!-- {% block content %}{% endblock %} -->
 </body>
-
+<script src="../scripts/gallery.js"></script>
 </html>
