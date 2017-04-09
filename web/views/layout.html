@@ -17,68 +17,93 @@
 
             <ul class="as3mbus-nav">
                 <li id="home">
-                    <a  href="#">
+                    <a href="#">
                         <img id="nav-title" align="center" src="../images/Title-White.png" alt="Nice coconut tree" />
                     </a>
                 </li>
                 <div class="divider">
 
                 </div>
-                <li>Announcement</li>
-                <li>About</li>
-                <li>Manage</li>
+                <li>
+                    <div class="as3mbus-dropdown">
+                        <span>Announcement</span>
+                        <div class="as3mbus-dropdown-content">
+                            <p>Event</p>
+                            <p>Update Log</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="as3mbus-dropdown">
+                        <span>About</span>
+                        <div class="as3mbus-dropdown-content">
+                            <p>Testimony</p>
+                            <p>Documentation</p>
+                            <p>F.A.Q.</p>
+                            <p>Contact Us</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="as3mbus-dropdown">
+                        <span>Manage</span>
+                        <div class="as3mbus-dropdown-content">
+                            <p>Journal</p>
+                            <p>Find Quest</p>
+                            <p>Host Quest</p>
+                        </div>
+                </li>
                 <li>Login</li>
-                <li>F.A.Q.</li>
-                <li>Contact Us</li>
             </ul>
-        </div>
-        <div class="as3mbus-content-container">
-            <a id="title" href="#">
+            </div>
+            <div class="as3mbus-content-container">
+                <a id="title" href="#">
+                    <div class="as3mbus-content">
+                        <img src="../images/Title.svg">
+                        <h3>Achieve and Accomplish your Goal with Quest Manager</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="as3mbus-content-container">
                 <div class="as3mbus-content">
-                    <img src="../images/Title.svg">
-                    <h3>Achieve and Accomplish your Goal with Quest Manager</h3>
+                    {% include 'gallery.html' %}
                 </div>
-            </a>
-        </div>
-        <div class="as3mbus-content-container">
-            <div class="as3mbus-content">
-                {% include 'gallery.html' %}
+                <div class="as3mbus-content">
+                    <h1>Quest : Introduction</h1>
+                    <h3>Welcome to Qadding</h3>
+                    <p>Welcome to Qadding (Quest Adding) website for opportunist and opportunity creator</p>
+                    <p>This Website and it's system is still under construction so if you want to help and contribute to this project feel free and contact me below </p>
+                </div>
+                <div class="as3mbus-content">
+                    <h1>Quest : Description</h1>
+                    <h3>What is this ?</h3>
+                    <p>Qadding is a place where you can create a quest, offer it to the board so people would do it. That way you can skip your job and let other people do it for you :)</p>
+                    <p>In other side you can find a suitable quest for you, do it and get the reward it's offer. </p>
+                </div>
+                <div class="as3mbus-content">
+                    <h1>Quest : Drive Away</h1>
+                    <h3>Why are you still here ?</h3>
+                    <p>This website is still under construction. you cant get anymore information than this</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
             </div>
-            <div class="as3mbus-content">
-                <h1>Quest : Introduction</h1>
-                <h3>Welcome to Qadding</h3>
-                <p>Welcome to Qadding (Quest Adding) website for opportunist and opportunity creator</p>
-                <p>This Website and it's system is still under construction so if you want to help and contribute to this project feel free and contact me below </p>
-            </div>
-            <div class="as3mbus-content">
-                <h1>Quest : Description</h1>
-                <h3>What is this ?</h3>
-                <p>Qadding is a place where you can create a quest, offer it to the board so people would do it. That way you can skip your job and let other people do it for you :)</p>
-                <p>In other side you can find a suitable quest for you, do it and get the reward it's offer. </p>
-            </div>
-            <div class="as3mbus-content">
-                <h1>Quest : Drive Away</h1>
-                <h3>Why are you still here ?</h3>
-                <p>This website is still under construction. you cant get anymore information than this</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <div class="as3mbus-footer-container">
-            <div class="as3mbus-footer-text">
-                as3mbus - 2016
+            <div class="as3mbus-footer-container">
+                <div class="as3mbus-footer-text">
+                    as3mbus - 2016
 
+                </div>
+                <ul class="as3mbus-footer-icons">
+                    <li><img src="../images/f.png" alt="fesbuk"></li>
+                    <li><img src="../images/tweet.png" alt="tweeter"></li>
+                </ul>
             </div>
-            <ul class="as3mbus-footer-icons">
-                <li><img src="../images/f.png" alt="fesbuk"></li>
-                <li><img src="../images/tweet.png" alt="tweeter"></li>
-            </ul>
+
+
         </div>
 
-
-    </div>
-
-    <!-- {% block content %}{% endblock %} -->
+        <!-- {% block content %}{% endblock %} -->
 </body>
 <script src="../scripts/gallery.js"></script>
 
