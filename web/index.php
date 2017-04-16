@@ -38,5 +38,9 @@ $app->get('/updatelog', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('updatelog.twig');
 });
+$app->get('/about', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('about.twig');
+});
 
 $app->run();
