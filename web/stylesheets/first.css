@@ -59,6 +59,10 @@ p{
     max-height: 50px;
     vertical-align: center;
 }
+.as3mbus-nav li a:hover{
+  border: 3px solid #85745eff;
+  border-width: 0 0 3px 0;
+}
 
 .divider{
   display: inline-block;
@@ -146,7 +150,9 @@ p{
 
 .as3mbus-dropdown:hover .as3mbus-dropdown-content {
     display: block;
+    border: 0;
 }
 .as3mbus-dropdown:hover .as3mbus-dropdown-content * {
     color: #85745eff;
+    border: 0;
 }
