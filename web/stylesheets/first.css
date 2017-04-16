@@ -5,6 +5,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #85745eff;
 }
 
 a#title {
@@ -14,6 +15,10 @@ a#title {
 a#title div{
   margin: 0;
   padding: 10px 20px;
+}
+
+p{
+  font-size: 1.5em;
 }
 
 .as3mbus-container {
