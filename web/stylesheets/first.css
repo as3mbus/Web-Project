@@ -148,6 +148,12 @@ p{
   border-width: 0 0 3px 0;
 
 }
+.as3mbus-dropdown:hover span{
+  /*color: #d3c89dff;*/
+  border: 3px solid #85745eff;
+  border-width: 0 0 3px 0;
+
+}
 
 .as3mbus-dropdown:hover .as3mbus-dropdown-content {
     display: block;
@@ -157,6 +163,10 @@ p{
 .as3mbus-dropdown:hover .as3mbus-dropdown-content * {
     color: #85745eff;
     border: 0;
+}
+.as3mbus-dropdown:hover .as3mbus-dropdown-content *:hover {
+    border: 3px solid #85745eff;
+    border-width: 0 0 0 5px;
 }
 .as3mbus-4col{
   width: 25%;
