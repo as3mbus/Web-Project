@@ -46,5 +46,9 @@ $app->get('/testimony', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('testimony.twig');
 });
+$app->get('/faq', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('faq.twig');
+});
 
 $app->run();
