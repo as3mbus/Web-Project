@@ -9,6 +9,7 @@
 
 .mySlides {
     display: none;
+    max-height: 500px;
 }
 
 /* Next & previous buttons */
