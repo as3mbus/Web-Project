@@ -42,6 +42,10 @@ $app->get('/about', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('about.twig');
 });
+$app->get('/documentation', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('documentation.twig');
+});
 $app->get('/testimony', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('testimony.twig');
