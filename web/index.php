@@ -54,5 +54,13 @@ $app->get('/faq', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('faq.twig');
 });
+$app->get('/contact', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('contact.twig');
+});
+$app->get('/construction', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('construction.twig');
+});
 
 $app->run();
