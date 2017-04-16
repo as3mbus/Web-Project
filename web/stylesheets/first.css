@@ -80,6 +80,7 @@ p{
 .as3mbus-content-container {
     background-color: #ddd;
     padding: 4px;
+    
 }
 
 .as3mbus-content {
@@ -151,8 +152,18 @@ p{
 .as3mbus-dropdown:hover .as3mbus-dropdown-content {
     display: block;
     border: 0;
+
 }
 .as3mbus-dropdown:hover .as3mbus-dropdown-content * {
     color: #85745eff;
     border: 0;
+}
+.as3mbus-4col{
+  width: 25%;
+  display: inline-block;
+  padding: 10px
+}
+.as3mbus-4col h1{
+  border: 3px solid #85745eff;
+  border-width: 0 0 3px 0;
 }
