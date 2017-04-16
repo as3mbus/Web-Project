@@ -30,5 +30,9 @@ $app->get('/announcement', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('announcement.twig');
 });
+$app->get('/event', function() use($app) {
+  $app['monolog']->addDebug('logging output.');
+  return $app['twig']->render('event.twig');
+});
 
 $app->run();
