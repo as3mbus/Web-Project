@@ -1,13 +1,19 @@
 body {
     margin: 0;
+    font-family: Century Gothic;
 }
 
 a {
   text-decoration: none;
 }
 
-#title {
+a#title {
   text-align: center;
+
+}
+a#title div{
+  margin: 0;
+  padding: 10px 20px;
 }
 
 .as3mbus-container {
